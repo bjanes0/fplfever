@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>FPL Fever</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+    <link href="style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-sm navbar-light fixed-top">
+      <a class="navbar-brand" href="index.html">
+        <img src="img/fire.png" alt="FPLFever" style="width:40px" />
+      </a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#collapsibleNavbar"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="articles.html">Articles</a>
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link"
+              href="https://fantasy.premierleague.com/entry/36117/history"
+              >The Team</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  
+    <!--Welcome Area-->
+    <div id="sliders" class="carousel slide" data-ride="carousel">
+      <ul class="carousel indicators">
+        <li data-target="#sliders" data-slide-to="0" class="active"></li>
+        <li data-target="#sliders" data-slide-to="1"></li>
+        <li data-target="#sliders" data-slide-to="2"></li>
+      </ul>
+
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="img/salah.png" alt="Salah" />
+          <div class="carousel-caption">
+            <h1>Pre Season Guide</h1>
+            <button class="btn btn-primary btn-lg" href="#">Read!</button>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="img/vardy.jpg" alt="Vardy" />
+        </div>
+        <div class="carousel-item">
+          <img src="img/raul.jpg" alt="Raul" />
+        </div>
+      </div>
+
+      <a class="carousel-control-prev" href="#sliders" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </a>
+      <a class="carousel-control-next" href="#sliders" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </a>
+    </div>
+
+    <div class="container-fluid padding" style="margin-top: 1rem">
+      <div class="row recent">
+        <div class="col-12">
+          <h1 class="display-4 text-center" style="background: #ffffff">
+            Recent Articles
+          </h1>
+          <hr />
+        </div>
+      </div>
+    </div>
+
+    <!--Recent Article Cards-->
+    <div class="container-fluid">
+      <div class="row padding">
+        <div class="col-md-4">
+          <div class="card mb-3 mx-auto">
+            <img class="card-img-top" src="img/zaha.jpg" />
+            <div class="card-body">
+              <h4 class="card-title">Midfielders to watch</h4>
+              <h6 class="card-subtitle mb-2 text-muted">July 14 2019</h6>
+              <p class="card-text">
+                Top midfielders to watch this season
+              </p>
+              <a href="#" class="btn btn-primary">Read</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card mb-3 mx-auto">
+            <img class="card-img-top" src="img/perez.jpg" />
+            <div class="card-body" href="#">
+              <h4 class="card-title">Perez signs for Leicester</h4>
+              <h6 class="card-subtitle mb-2 text-muted">July 13 2019</h6>
+              <p class="card-text">
+                Ayoze Perez joins the list of budget midfielders following a
+                move to Leicester
+              </p>
+              <a href="#" class="btn btn-primary">Read</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card mb-3 mx-auto">
+            <img class="card-img-top" src="img/walker.jpg" />
+            <div class="card-body">
+              <h4 class="card-title">Top Defensive Prospects for the Season</h4>
+              <h6 class="card-subtitle mb-2 text-muted">July 13 2019</h6>
+              <p class="card-text">
+                Explore Kyle Walker and the other possible defenders this season
+              </p>
+              <a href="#" class="btn btn-primary">Read</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <hr />
+
+    <!--Featured Article Card-->
+    <div class="container-fluid padding">
+      <div class="row padding">
+        <div class="col-12 text-center">
+          <h2>Check out the FPLFever preseason guide!</h3>
+          <p>
+            Take a look at the preseason guide which contains a list of players
+            to watch, results from preseason matches, and more!
+          </p>
+        </div>
+        <div class="col-12">
+          <img src="img/preseason.jpg" class="mx-auto d-block img-fluid" />
+        </div>
+      </div>
+    </div>
+
+    <hr />
+    <!--Footer-->
+    <footer>
+      <div class="container-fluid">
+        <div class="row text-center">
+          <div class="col-12">
+            <p>FPLFever</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
