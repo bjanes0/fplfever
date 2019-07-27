@@ -65,7 +65,29 @@ body {
   height: 15px;
 }
 
+.article-heading img {
+  margin-bottom: 1rem;
+  width: 55%;
+}
+
+.article-body img {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  width: 50%;
+}
+
+.article-cards .card {
+  width: 65%;
+}
+
+.article-body {
+  width: 75%;
+}
+
 @media (max-width: 992px) {
+  .article-body {
+    width: 85%;
+  }
 }
 @media (max-width: 768px) {
   .carousel-caption h1 {
@@ -83,7 +105,25 @@ body {
     margin-bottom: 0.2rem;
   }
   .card {
-    width: 60%;
+    width: 85%;
+  }
+  .text-muted {
+    font-size: 80%;
+  }
+  .article-heading img {
+    margin-bottom: 0.6rem;
+    width: 75%;
+  }
+  .article-cards .card {
+    width: 85%;
+  }
+  .article-body {
+    width: 90%;
+  }
+  .article-body img {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    width: 70%;
   }
 }
 @media (max-width: 576px) {
@@ -97,5 +137,13 @@ body {
   }
   .display-4 {
     font-size: 200%;
+  }
+  .article-heading img {
+    width: 95%;
+  }
+  .article-body img {
+    margin-top: 0.3rem;
+    margin-bottom: 0.3rem;
+    width: 90%;
   }
 }
