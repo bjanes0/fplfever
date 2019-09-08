@@ -132,7 +132,7 @@ body {
 }
 @media (max-width: 576px) {
   .carousel-caption h1 {
-    font-size: 250%;
+    font-size: 180%;
     text-shadow: 1px 1px 10px #000;
   }
   .carousel-caption .btn {
@@ -149,5 +149,9 @@ body {
     margin-top: 0.3rem;
     margin-bottom: 0.3rem;
     width: 90%;
+  }
+  .carousel-caption {
+    top: 50%;
+    transform: translateY(-70%);
   }
 }
